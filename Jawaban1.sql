@@ -1,0 +1,19 @@
+CREATE TABLE mahasiswa(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	nim BIGINT,
+	nama_mahasiswa VARCHAR(100),
+	jenis_kelamin VARCHAR(100)
+	
+);
+
+CREATE TABLE dosen(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	kd_dosen BIGINT,
+	nama VARCHAR(100)
+	
+);
+
+CREATE TABLE mata_kuliah(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	mata_kuliah VARCHAR(100)
+);
